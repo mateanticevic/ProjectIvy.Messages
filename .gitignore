@@ -3,3 +3,5 @@
 /ProjectIvy.Messages/bin
 /ProjectIvy.Messages.Models/obj
 /ProjectIvy.Messages.Models/bin
+/ProjectIvy.Messages.QueueListener/bin
+/ProjectIvy.Messages.QueueListener/obj

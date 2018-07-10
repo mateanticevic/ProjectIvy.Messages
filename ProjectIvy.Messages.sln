@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIvy.Messages.QueueListener", "ProjectIvy.Messages\ProjectIvy.Messages.QueueListener.csproj", "{F8B114E4-98FC-44FB-B987-EB3217AB460C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIvy.Messages.QueueListener", "ProjectIvy.Messages.QueueListener\ProjectIvy.Messages.QueueListener.csproj", "{F8B114E4-98FC-44FB-B987-EB3217AB460C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIvy.Messages.Models", "ProjectIvy.Messages.Models\ProjectIvy.Messages.Models.csproj", "{B4165B7D-DF9B-4A06-988B-A20BB24AE3DA}"
 EndProject
