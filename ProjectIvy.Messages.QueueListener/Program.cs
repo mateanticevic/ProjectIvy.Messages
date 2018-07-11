@@ -4,13 +4,18 @@ using System;
 using System.Text;
 using Newtonsoft.Json;
 using ProjectIvy.Messages.Models.Trackings;
+using NLog;
 
 namespace ProjectIvy.Messages.QueueListener
 {
     class Receive
     {
+        private static readonly ILogger _logger = LogManager.GetCurrentClassLogger();
+
         public static void Main()
         {
+            _logger.Info("Application started");
+
             var factory = new ConnectionFactory() { HostName = "do.anticevic.net" };
             using (var connection = factory.CreateConnection())
             {

@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <PackageReference Include="GitVersionTask" Version="4.0.0-beta0012" />
+    <PackageReference Include="NLog" Version="4.5.6" />
+    <PackageReference Include="NLog.Config" Version="4.5.6" />
+    <PackageReference Include="NLog.Targets.Gelf" Version="1.0.0" />
     <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
   </ItemGroup>
 
